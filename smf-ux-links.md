@@ -6,6 +6,10 @@
 
 - [Google's Material System](https://material.io/guidelines/) - Covers Google's ideology on motion and how it should direct the user's attention.
 
+### Single Page Informative
+
+- [Anatomy of Type](https://www.designersinsights.com/designer-resources/anatomy-of-typography/) - Illustrates the various font properties in a visual way.
+
 ### UI Videos
 
 - [Steve Schoger's UI Redesigns](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA/videos) - Steve's videos go through redesigning a problem web page into a modern one.
