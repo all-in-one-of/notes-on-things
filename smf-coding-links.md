@@ -54,6 +54,12 @@
 
 - [Herb Sutter](https://herbsutter.com/) - Some cool articles on multi-threaded programming and other topics.
 
+### Websites
+
+- [Compiler Explorer](https://godbolt.org/) - Shows disassembly of code in real-time.
+
+- [Shader Playground](http://shader-playground.timjones.io/) - Similar to Compiler Explorer but for shader code.
+
 ### Researchers
 
 - [Tim Harris](https://timharris.uk/) - Inventor of the Harris compare-and-swap lock-less linked list among other things. Papers are available on his site.
