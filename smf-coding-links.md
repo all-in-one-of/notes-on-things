@@ -94,7 +94,7 @@
 
 - [Vamp Plugins](https://www.vamp-plugins.org/) - Allows you to output descriptive debug data while writing an audio analysis tool.
 
-### Math References
+## Math References
 
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) YouTube tutorials on introductory Linear Algebra with visual examples.
 
