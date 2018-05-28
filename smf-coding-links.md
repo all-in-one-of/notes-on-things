@@ -92,6 +92,8 @@
 
 ### Audio Plugin Tools
 
+- [Room EQ Wizard](https://www.roomeqwizard.com/) - Software that helps you calibrate your speaker setup.
+
 - [Vamp Plugins](https://www.vamp-plugins.org/) - Allows you to output descriptive debug data while writing an audio analysis tool.
 
 - [Christian Budde's VST Analyzer](http://www.pcjv.de/applications/measurement-programs/) - Tool to check impulse response of a VST, or if it is adding distortion. Free.
