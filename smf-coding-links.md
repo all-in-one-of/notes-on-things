@@ -94,6 +94,10 @@
 
 - [Vamp Plugins](https://www.vamp-plugins.org/) - Allows you to output descriptive debug data while writing an audio analysis tool.
 
+- [Christian Budde's VST Analyzer](http://www.pcjv.de/applications/measurement-programs/)
+
+- [Stillwells Schope](http://www.stillwellaudio.com/plugins/schope/) - A commercial signal analysis tool.
+
 ## Math References
 
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) YouTube tutorials on introductory Linear Algebra with visual examples.
