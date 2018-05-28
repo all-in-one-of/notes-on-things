@@ -94,7 +94,7 @@
 
 - [Vamp Plugins](https://www.vamp-plugins.org/) - Allows you to output descriptive debug data while writing an audio analysis tool.
 
-- [Christian Budde's VST Analyzer](http://www.pcjv.de/applications/measurement-programs/)
+- [Christian Budde's VST Analyzer](http://www.pcjv.de/applications/measurement-programs/) - Tool to check impulse response of a VST, or if it is adding distortion. Free.
 
 - [Stillwells Schope](http://www.stillwellaudio.com/plugins/schope/) - A commercial signal analysis tool.
 
