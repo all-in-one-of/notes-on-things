@@ -98,6 +98,8 @@
 
 - [Stillwells Schope](http://www.stillwellaudio.com/plugins/schope/) - A commercial signal analysis tool.
 
+- [Voxengo SPAN](http://www.voxengo.com/product/span/) - A freeware spectrum analyzer.
+
 ## Math References
 
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) YouTube tutorials on introductory Linear Algebra with visual examples.
