@@ -100,6 +100,8 @@
 
 - [Voxengo SPAN](http://www.voxengo.com/product/span/) - A freeware spectrum analyzer.
 
+- [s(M)exoscope](http://armandomontanez.com/smexoscope/) - A freeware oscilliscope.
+
 ## Math References
 
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) YouTube tutorials on introductory Linear Algebra with visual examples.
