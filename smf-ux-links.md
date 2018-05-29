@@ -38,6 +38,10 @@
 
 - [Val Head](http://valhead.com/blog/) - She is a motion designer/UX person working at Adobe with some interesting articles.
 
+### Articles
+
+- [Creating Usability with Motion](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc) - Article by Issara Willenskomer about motion in design.
+
 ------------
 
 # Notes on "The Design of Everyday Things"
