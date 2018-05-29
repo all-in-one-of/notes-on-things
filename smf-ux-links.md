@@ -34,6 +34,10 @@
 
 - [Building a Web App with Angular](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
 
+### People
+
+- [Val Head](http://valhead.com/blog/) - She is a motion designer/UX person working at Adobe with some interesting articles.
+
 ------------
 
 # Notes on "The Design of Everyday Things"
