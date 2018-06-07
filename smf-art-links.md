@@ -7,3 +7,7 @@
 - [CC0 Textures](https://www.cc0textures.com/home) - Bunch of free-to-use PBR 4k and 8k textures.
 
 - [Paletton](http://paletton.com) - Place for making color palettes.
+
+## Free Art Apps
+
+- [PureRef](https://www.pureref.com/) - A reference board you can put a bunch of images on.
