@@ -60,7 +60,7 @@
 
 # Entagma Tutorials
 
-## 01. Entagma - Volumes 101: Volume Basics
+## [Volumes 101: Volume Basics](https://www.patreon.com/posts/volumes-101-13902771)
 
 ### Volume SOPS
 * Drop down a geo node and enter into it, delete the default node.
@@ -116,7 +116,7 @@
 
 ------------
 
-## 02. Entagma - Volumes 101: Vector Volumes
+## [Volumes 101: Vector Volumes](https://www.patreon.com/posts/volumes-101-13979215)
 
 ### Volume SOPS
 * Drop down a geo node and enter into it, delete the default node.
@@ -156,7 +156,7 @@
 
 ------------
 
-## 03. Entagma - Volumes 101: Signed Distance Fields
+## [Volumes 101: Signed Distance Fields](https://www.patreon.com/posts/volumes-101-14120738)
 
 ### SDF Concepts
 * Each voxel center contains the radius of the circle that touches the field.
