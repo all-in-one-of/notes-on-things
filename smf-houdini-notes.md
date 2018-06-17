@@ -231,3 +231,39 @@
 - Use Volumes if you don't want to have to worry about activating voxels, or if the field isn't sparse.
 - Use Volumes when you want to use OpenCL.
 - Most standard building operations are quicker and less error-prone in VDBs.
+
+------------
+
+## [Volumes 101: Volume Booling](https://www.patreon.com/posts/volumes-101-14347205)
+
+### Getting a file in with relative path
+- $HIP/../../../threedscans/beethovencomplete.stl
+- Scale and rotate with a transform SOP. Click "Move Centroid to Origin"/
+
+### Scattering points in a VDB
+- VDB From Polygons SOP -> fog VDB called Density
+- Wire up a Scatter SOP: Throws down points inside the density field.
+
+### Connect Adjacent Pieces SOP
+- Wire up a "Connect Adjacent Pieces SOP"
+- Set to connect to adjacent points.
+- Set Max Search Points to 10.
+- Set Search Radius to 0.3.
+- Scatter is too regular: Disable the relax iterations in the Scatter SOP.
+
+### Wireframe SOP
+- Turns lines into geometry
+
+### VDB From Polygons SOP
+- TIP: With thin geometry, good starting point is to use half the width of smallest geometry as voxel size.
+
+### VDB Smooth SDF SOP
+- Change operation to "Mean Curvature Flow".
+- Dial up the iterations to 8.
+
+### VDB Convert SOP
+- Convert to Polygons.
+
+### File Cache
+- PROJECT_NAME_$F4.bgo.sc for compressed file cache
+- Check "Load From Disk"
