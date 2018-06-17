@@ -176,3 +176,58 @@
 
 ### Volume Slice SOP
 * Slide the plane through to look into the volume and detect weird geometry.
+
+------------
+
+## [Volumes 101: VDBs vs. Standard Volumes](https://www.patreon.com/posts/volumes-101-vdbs-14233083)
+- VDBs only store values along the surface, omitting the interior and exterior nodes.
+- They are also multithreaded and open sourced.
+
+### VDB From Polygons SOP
+- Converts polygons to VDB SDF or density field.
+- Much faster than Volumes and without artifacts.
+- Exterior/Interior band Voxel settings are the number of voxels existing from the surface (default is 3 for each).
+- Checking "Fill Interior" will fill the entire interior with voxels.
+- If "Fill Interior" not checked, Houdini assumes interior has value of 1 and exterior has value of 0.
+
+### VDB Smooth SDF SOP
+- Different than the VDB Smooth SOP in that it is specifically for smoothing SDFs.
+- Can pick different smoothing kernels: Average, Gaussain, etc.
+
+### Adding Attributes
+- Uncheck "Add Shader" in the test geo.
+- Wire up a Color SOP.
+- Make sure class is "Point"
+- Pick color type "Random"
+- Wire up a VDB From Polygons.
+- Click on the plus icon next to Surface Attributes.
+- Select Attribute as "point.Cd"
+- Set the VDB Name for attribute as "color"
+- Middle mouse over node and see two volumes: one float-volume called "surface" and one vector volume called "color.
+- NOTE: VDBs allow you to store a vectore as a single volume, whereas Houdini Volumes would require three volumes.
+
+### Booleans
+- Can get better and faster results than normal Houdini Volumes.
+- Add a second mesh: the pig-head.
+- Wire up a VDB Combine SOP
+- Pick operation as one of the SDF operations: SDF Union, SDF Intersection, SDF Difference.
+- Drop down a Smooth Surface SDF SOP.
+
+### Exterior/Interior Band Voxels
+- Wire up a VDB Visualize Tree SOP
+- Check the "Active Voxels" checkbox.
+- Wire up a Clip SOP.
+- Set to the X-Axis with { 1, 0, 0 } in Direction.
+- Red dots are exterior band voxels, white dots are interior band voxels.
+- Standard smooth could smooth into areas with no voxel data producing errors. The Smooth SDF instead activates voxels in those holes so we don't get errors.
+
+### VDB Activate SDF SOP
+- The Half-Width is the width around the surface in voxels. Half-Width of exterior band, the other Half Width of interior band.
+- VDB Visualize Tree with Active Voxels -> Clip is a good way to see what's going on.
+- Can also just check Fill-Interior in original VDB From Polygons to fill with active voxels. Also has an exterior band voxels option which does the same thing as Activate SDF -> half width.
+
+### When to use VDB vs Volumes
+- Use VDBs when fields are sparse.
+- Use Volumes if you don't want to have to worry about activating voxels, or if the field isn't sparse.
+- Use Volumes when you want to use OpenCL.
+- Most standard building operations are quicker and less error-prone in VDBs.
