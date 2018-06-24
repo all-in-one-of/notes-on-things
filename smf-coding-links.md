@@ -109,3 +109,5 @@
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) YouTube tutorials on introductory Linear Algebra with visual examples.
 
 - [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) Interactive website on basic Linear Algebra concepts.
+
+- [Easing Curves](https://easings.net/)
