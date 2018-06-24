@@ -43,6 +43,8 @@
 
 - [FlexMonkey's VEX and SWIFT Tutorials](http://flexmonkey.blogspot.com/)
 
+- [Tokeru's VEX Notes](http://www.tokeru.com/cgwiki/index.php?title=HoudiniVex)
+
 ### Houdini Tools
 
 - [Sublime Text Editor add-on for VEX](https://github.com/teared/VEX)
