@@ -8,6 +8,8 @@
 
 - [AIFF](http://muratnkonar.com/aiff/index.html) - AIFF is a common format for audio files, particularly on the MacOS.
 
+- [PSD Notes](https://github.com/layervault/psd.rb/wiki/Anatomy-of-a-PSD-File) - Notes about the PSD file format.
+
 ### Code Resources
 
 - [GLFW](http://www.glfw.org/) - Cross-platform window and input manager for OpenGL and Vulkan.
