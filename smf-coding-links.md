@@ -10,7 +10,7 @@
 
 - [Anatomy of a PSD File](https://github.com/layervault/psd.rb/wiki/Anatomy-of-a-PSD-File) - Notes about the PSD file format.
 
-- [PSD File Spec](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/#50577409_72092)
+- [PSD File Specification](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/#50577409_72092) - File specification of the PSD format direct from Adobe.
 
 ### Code Resources
 
