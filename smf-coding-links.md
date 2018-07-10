@@ -68,6 +68,10 @@
 
 - [Tim Harris](https://timharris.uk/) - Inventor of the Harris compare-and-swap lock-less linked list among other things. Papers are available on his site.
 
+- [Matt Pharr](http://pharr.org/matt/blog/) - Creator of pbrt and other rendering things.
+
+- [Yining Karl Li](https://blog.yiningkarlli.com/) - Researcher at Disney Animation Studios. Cool stuff.
+
 ## Graphics Programming
 
 ### Shader Resources
