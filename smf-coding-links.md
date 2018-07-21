@@ -123,3 +123,5 @@
 ## Lists
 
 - [Awesome Electron](https://github.com/sindresorhus/awesome-electron) - List of Electron links.
+
+- [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) - List of Node.js links.
