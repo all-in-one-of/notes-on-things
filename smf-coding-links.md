@@ -119,3 +119,7 @@
 - [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) Interactive website on basic Linear Algebra concepts.
 
 - [Easing Curves](https://easings.net/)
+
+## Lists
+
+- [Awesome Electron](https://github.com/sindresorhus/awesome-electron) - List of Electron links.
