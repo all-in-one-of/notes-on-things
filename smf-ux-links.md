@@ -6,6 +6,8 @@
 
 - [Google's Material System](https://material.io/guidelines/) - Covers Google's ideology on motion and how it should direct the user's attention.
 
+- [Neilsen Group](https://www.nngroup.com/) - Bunch of papers and reports on UX stuff.
+
 ### Single Page Informative
 
 - [Anatomy of Type](https://www.designersinsights.com/designer-resources/anatomy-of-typography/) - Illustrates the various font properties in a visual way.
