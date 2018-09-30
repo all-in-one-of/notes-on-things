@@ -80,6 +80,8 @@
 
 - [The Nature of Code](http://natureofcode.com/book/) - Resources on cellular automata and other programming topics.
 
+- [Unofficial Shadertoy Guide](https://shadertoyunofficial.wordpress.com/) - An unofficial guide to shader toy.
+
 ### Vulkan Resources
 
 - [Khrono's Vulkan Tutorial](https://vulkan-tutorial.com/Introduction) - Vulkan tutorial taking you from first-light to uploading and drawing meshes with textures.
